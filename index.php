@@ -1,6 +1,7 @@
 <?php
 require 'vendor/autoload.php';
-require 'includes/MediCore_db.php';
+require 'includes/db_connection.php';
+use Smarty\Smarty;
 
 $smarty = new Smarty();
 
@@ -14,6 +15,6 @@ $stmt->execute();
 $patients = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 $smarty->assign('patients', $patients);
-$smarty->assign('base_url', 'http://localhost/MediCore_Hospital/');
+$smarty->assign('base_url', 'http://localhost/MediCare_Hospital/');
 $smarty->display('templates/index.tpl');
 ?>

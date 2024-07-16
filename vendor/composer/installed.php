@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '85d363bd65aeb284bc5ba71065f8d7793068eac1',
+        'reference' => 'e0183bda827a94d97468414cf7fa98b4dfc0fd79',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '85d363bd65aeb284bc5ba71065f8d7793068eac1',
+            'reference' => 'e0183bda827a94d97468414cf7fa98b4dfc0fd79',
             'dev_requirement' => false,
         ),
         'smarty/smarty' => array(
