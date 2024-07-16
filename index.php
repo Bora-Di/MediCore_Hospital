@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-require 'includes/db.php';
+require 'includes/MediCore_db.php';
 
 $smarty = new Smarty();
 
