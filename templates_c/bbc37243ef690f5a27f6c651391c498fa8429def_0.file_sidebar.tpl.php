@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-07-16 21:30:50
+/* Smarty version 5.3.1, created on 2024-07-16 22:48:21
   from 'file:includes/sidebar.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_6696ca6aa6bf43_30352567',
+  'unifunc' => 'content_6696dc9573e882_04260828',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bbc37243ef690f5a27f6c651391c498fa8429def' => 
     array (
       0 => 'includes/sidebar.tpl',
-      1 => 1721158247,
+      1 => 1721162885,
       2 => 'file',
     ),
   ),
@@ -20,12 +20,12 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_6696ca6aa6bf43_30352567 (\Smarty\Template $_smarty_tpl) {
+function content_6696dc9573e882_04260828 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\xampp\\htdocs\\MediCare_Hospital\\includes';
-?><aside class="main-sidebar sidebar-primary-green elevation-4">
+?><aside class="main-sidebar ">
     <a href="#" class="brand-link">
         <img src="<?php echo $_smarty_tpl->getValue('base_url');?>
-admin/dist/img/MediLogo.png" alt="Logo" class="brand-image img-circle elevation-3">
+admin/dist/img/MediLogo.png" alt="Logo" class="brand-image ">
         <span class="brand-text font-weight-light">MediCore</span>
     </a>
     <div class="sidebar">

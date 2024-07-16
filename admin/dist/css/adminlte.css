@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --primary-green: #02a499;
+  --green: #02a499;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -19,7 +19,6 @@
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
-  --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
@@ -10788,7 +10787,7 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   z-index: 1035;
 }
 
-.layout-navbar-fixed .wrapper .sidebar-primary-green .brand-link:not([class*="navbar"]) {
+.layout-navbar-fixed .wrapper .sidebar-green-primary .brand-link:not([class*="navbar"]) {
   background-color: #02a499;}
 
 
@@ -11913,7 +11912,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 
-.layout-navbar-fixed .dark-mode .wrapper .sidebar-primary-green .brand-link:not([class*="navbar"]) {
+.layout-navbar-fixed .dark-mode .wrapper .sidebar-green-primary .brand-link:not([class*="navbar"]) {
   background-color: #02a499;
 }
 
@@ -11981,7 +11980,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
   background-color: #fff;
 }
 
-.layout-navbar-fixed .dark-mode .wrapper .sidebar-primary-green .brand-link:not([class*="navbar"]) {
+.layout-navbar-fixed .dark-mode .wrapper .sidebar-green-primary .brand-link:not([class*="navbar"]) {
   background-color: #02a499;
 }
 
@@ -12051,7 +12050,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 
 @media (min-width: 576px) {
 
-  .layout-sm-navbar-fixed .dark-mode .wrapper .sidebar-primary-green .brand-link:not([class*="navbar"]) {
+  .layout-sm-navbar-fixed .dark-mode .wrapper .sidebar-green-primary .brand-link:not([class*="navbar"]) {
     background-color: #02a499;
   }  
   .layout-sm-navbar-fixed .dark-mode .wrapper .sidebar-dark-primary .brand-link:not([class*="navbar"]) {
@@ -12105,7 +12104,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 @media (min-width: 768px) {
-  .layout-sm-navbar-fixed .dark-mode .wrapper .sidebar-primary-green .brand-link:not([class*="navbar"]) {
+  .layout-sm-navbar-fixed .dark-mode .wrapper .sidebar-green-primary .brand-link:not([class*="navbar"]) {
     background-color: #02a499;
   } 
   .layout-md-navbar-fixed .dark-mode .wrapper .sidebar-dark-primary .brand-link:not([class*="navbar"]) {
@@ -12159,7 +12158,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 @media (min-width: 992px) {
-  .layout-sm-navbar-fixed .dark-mode .wrapper .sidebar-primary-green .brand-link:not([class*="navbar"]) {
+  .layout-sm-navbar-fixed .dark-mode .wrapper .sidebar-green-primary .brand-link:not([class*="navbar"]) {
     background-color: #02a499;
   } 
   .layout-lg-navbar-fixed .dark-mode .wrapper .sidebar-dark-primary .brand-link:not([class*="navbar"]) {
@@ -12213,7 +12212,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 @media (min-width: 1200px) {
-  .layout-xl-navbar-fixed .dark-mpde.wrapper .sidebar-primary-green .brand-link:not([class*="navbar"]) {
+  .layout-xl-navbar-fixed .dark-mpde.wrapper .sidebar-green-primary .brand-link:not([class*="navbar"]) {
     background-color: #02a499;
   } 
   .layout-xl-navbar-fixed .dark-mode .wrapper .sidebar-dark-primary .brand-link:not([class*="navbar"]) {

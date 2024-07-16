@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-07-16 18:49:14
+/* Smarty version 5.3.1, created on 2024-07-16 22:51:22
   from 'file:includes/header.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_6696a48ad9efa2_93746617',
+  'unifunc' => 'content_6696dd4a0c7b25_85936834',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'edc8ade0437f2b52c4c046285a0e3d02c6ded70e' => 
     array (
       0 => 'includes/header.tpl',
-      1 => 1721146856,
+      1 => 1721163078,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_6696a48ad9efa2_93746617 (\Smarty\Template $_smarty_tpl) {
+function content_6696dd4a0c7b25_85936834 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\xampp\\htdocs\\MediCare_Hospital\\includes';
 ?><!DOCTYPE html>
 <html>
@@ -36,14 +36,6 @@ assets/css/custom.css">
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
-    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-            </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-        </ul>
-    </nav>
+ 
 <?php }
 }
