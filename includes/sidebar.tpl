@@ -1,6 +1,6 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-primary-green elevation-4">
     <a href="#" class="brand-link">
-        <img src="{$base_url}admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3">
+        <img src="{$base_url}admin/dist/img/MediLogo.png" alt="Logo" class="brand-image img-circle elevation-3">
         <span class="brand-text font-weight-light">MediCore</span>
     </a>
     <div class="sidebar">
