@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "MediCare_db";
+$dbname = "MediCore_db";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

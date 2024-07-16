@@ -1,5 +1,5 @@
-CREATE DATABASE MediCare_db;
-USE Medicare_db;
+CREATE DATABASE MediCore_db;
+USE Medicore_db;
 
 CREATE TABLE patients (
     id INT AUTO_INCREMENT PRIMARY KEY,

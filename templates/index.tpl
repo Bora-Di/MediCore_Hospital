@@ -30,14 +30,15 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    {foreach $patients as $patient}
                                     <tr>
-                                        <td>Andrew Richardson</td>
-                                        <td>(555) 123-4567</td>
-                                        <td>09/06/2023 10:00AM</td>
-                                        <td>Dr. Jennifer Roberts</td>
-                                        <td>Pediatrics</td>
+                                        <td>{$patient.name}</td>
+                                        <td>{$patient.mob}</td>
+                                        <td>{$patient.date|date_format:"%Y-%m-%d %H:%M"}</td>
+                                        <td>{$patient.doctor}</td>
+                                        <td>{$patient.department}</td>
                                     </tr>
-                                    <!-- More rows as needed -->
+                                    {/foreach}
                                 </tbody>
                             </table>
                         </div>
