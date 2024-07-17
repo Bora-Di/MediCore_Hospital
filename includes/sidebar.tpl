@@ -1,8 +1,8 @@
 <aside class="main-sidebar ">
     <a href="#" class="brand-link">
         <img src="{$base_url}admin/dist/img/MediLogo.png" alt="Logo" class="brand-image ">
-        <h2> <span class="brand1-text ">MediCore</span></h2>
-        <h3> <span class="brand2-text">Hospital</span></h3>
+        <h2 class="brand1-text "> MediCore</h2>
+        <p class="brand2-text"> Hospital</p>
     </a>
     <div class="sidebar">
         <nav class="mt-2">

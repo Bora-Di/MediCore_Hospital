@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-07-17 14:43:13
+/* Smarty version 5.3.1, created on 2024-07-17 18:27:05
   from 'file:templates/index.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_6697bc619b63d7_62195196',
+  'unifunc' => 'content_6697f0d9b3a433_85987918',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e7d7aa0d173e75b09cee8b15e6ababdb95d8ad66' => 
     array (
       0 => 'templates/index.tpl',
-      1 => 1721219965,
+      1 => 1721233622,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
     'file:includes/footer.tpl' => 1,
   ),
 ))) {
-function content_6697bc619b63d7_62195196 (\Smarty\Template $_smarty_tpl) {
+function content_6697f0d9b3a433_85987918 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\xampp\\htdocs\\MediCare_Hospital\\templates';
 $_smarty_tpl->renderSubTemplate("file:includes/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), (int) 0, $_smarty_current_dir);
 $_smarty_tpl->renderSubTemplate("file:includes/sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), (int) 0, $_smarty_current_dir);
