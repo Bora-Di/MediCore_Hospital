@@ -17,7 +17,16 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Patient Details</h3>
+                        <div class="form-inline">
+                        <div class="input-group" data-widget="sidebar-search">
+                          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+                          <div class="input-group-append">
+                            <button class="btn btn-sidebar">
+                              <i class="fas fa-search fa-fw"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
                         </div>
                         <div class="card-body">
                             <table class="table table-bordered">
