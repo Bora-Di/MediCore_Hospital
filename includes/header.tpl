@@ -7,6 +7,5 @@
     <link rel="stylesheet" href="{$base_url}admin/dist/css/adminlte.min.css">
     <link rel="stylesheet" href="{$base_url}assets/css/custom.css">
 </head>
-<body class="hold-transition sidebar-mini">
-<div class="wrapper">
+
  

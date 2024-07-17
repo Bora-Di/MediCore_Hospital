@@ -4342,7 +4342,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #ffffff;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -10788,7 +10788,8 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
 }
 
 .layout-navbar-fixed .wrapper .sidebar-green-primary .brand-link:not([class*="navbar"]) {
-  background-color: #02a499;}
+  background-color: #02a499;
+}
 
 
 .layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*="navbar"]) {

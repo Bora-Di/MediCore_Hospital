@@ -26,6 +26,15 @@
                                         </button>
                                     </div>
                             </div>
+                            <div class="card-tools">
+                            <ul class="pagination pagination-sm">
+                                <li class="page-item"><a href="#" class="page-link">&laquo;</a></li>
+                                <li class="page-item">page</a></li>
+                                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                                <li class="page-item">of 2</a></li>
+                                <li class="page-item"><a href="#" class="page-link">&raquo;</a></li>
+                            </ul>
+                          </div>
                       </div>
                         </div>
                         <div class="card-body">

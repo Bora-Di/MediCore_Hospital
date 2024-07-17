@@ -3,18 +3,31 @@
 *{
     font-family: "Poppins", sans-serif;
 }
-.brand-text {
-    font-family: "Righteous", sans-serif;
-    font-size: 20px;
-    color: #fff;
-}
 .brand-link{
     width: 100%;
     padding: 16px 8px 60px 8px;
     color: #ffffff;
+    
 }
-.brand-image{
-    width: auto;
+.brand1-text {
+    font-family: "Righteous", sans-serif;
+    font-size: 30px;
+}
+.brand2-text {
+    font-family: "Righteous", sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 100;
+   text-align: justify;
+}
+
+.brand2-text h2{
+    margin-top: -100px;
+}
+.brand-link .brand-image{
+    margin-top: 15px;
+  width: 40px;
+  height: 100%;
 }
 
 .content-header{
@@ -28,6 +41,10 @@
 .main-sidebar{
     background-color: #02a499;
 }
-.sidebar{
-    color: #ffffff;
+.main-sidebar .nav-link {
+    padding: 20px 8px 15px 8px;
+    color: #ffffff; 
+}
+.main-sidebar .nav-link:hover{
+    background-color: #5edfd683;
 }

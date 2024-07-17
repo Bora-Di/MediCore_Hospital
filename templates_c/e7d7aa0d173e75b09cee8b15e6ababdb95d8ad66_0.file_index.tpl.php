@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-07-17 13:57:55
+/* Smarty version 5.3.1, created on 2024-07-17 14:43:13
   from 'file:templates/index.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_6697b1c3937f11_49420895',
+  'unifunc' => 'content_6697bc619b63d7_62195196',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e7d7aa0d173e75b09cee8b15e6ababdb95d8ad66' => 
     array (
       0 => 'templates/index.tpl',
-      1 => 1721217472,
+      1 => 1721219965,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
     'file:includes/footer.tpl' => 1,
   ),
 ))) {
-function content_6697b1c3937f11_49420895 (\Smarty\Template $_smarty_tpl) {
+function content_6697bc619b63d7_62195196 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\xampp\\htdocs\\MediCare_Hospital\\templates';
 $_smarty_tpl->renderSubTemplate("file:includes/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), (int) 0, $_smarty_current_dir);
 $_smarty_tpl->renderSubTemplate("file:includes/sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), (int) 0, $_smarty_current_dir);
@@ -54,6 +54,15 @@ $_smarty_tpl->renderSubTemplate("file:includes/sidebar.tpl", $_smarty_tpl->cache
                                         </button>
                                     </div>
                             </div>
+                            <div class="card-tools">
+                            <ul class="pagination pagination-sm">
+                                <li class="page-item"><a href="#" class="page-link">&laquo;</a></li>
+                                <li class="page-item">page</a></li>
+                                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                                <li class="page-item">of 2</a></li>
+                                <li class="page-item"><a href="#" class="page-link">&raquo;</a></li>
+                            </ul>
+                          </div>
                       </div>
                         </div>
                         <div class="card-body">
