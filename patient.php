@@ -15,7 +15,7 @@ $stmt->execute();
 $patients = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 $smarty->assign('patients', $patients);
-$smarty->assign('doctors', $doctors);
-$smarty->assign('base_url', 'http://localhost/MediCare_Hospital/');
-$smarty->display('templates/index.tpl');
+
+$smarty->assign('base_url', 'http://localhost/MediCare_Hospital/patient.php');
+$smarty->display('templates/patient_details.tpl');
 ?>

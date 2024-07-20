@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-07-17 18:31:53
+/* Smarty version 5.3.1, created on 2024-07-19 19:22:23
   from 'file:includes/sidebar.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_6697f1f9199ed9_29674497',
+  'unifunc' => 'content_669aa0cfe30174_63966697',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bbc37243ef690f5a27f6c651391c498fa8429def' => 
     array (
       0 => 'includes/sidebar.tpl',
-      1 => 1721233910,
+      1 => 1721409740,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_6697f1f9199ed9_29674497 (\Smarty\Template $_smarty_tpl) {
+function content_669aa0cfe30174_63966697 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\xampp\\htdocs\\MediCare_Hospital\\includes';
 ?><aside class="main-sidebar ">
     <a href="#" class="brand-link">
@@ -41,7 +41,9 @@ admin/dist/img/MediLogo.png" alt="Logo" class="brand-image ">
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-user"></i>
-                        <p>Patient Details</p>
+                        <p>
+                            Patient Details
+                        </p>
                     </a>
                 </li>
                 <li class="nav-item">

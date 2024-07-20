@@ -10,6 +10,6 @@ CREATE TABLE patients (
     department VARCHAR(255) NOT NULL
 );
 
-INSERT INTO patients (name, mob, date, doctor, department) VALUES
+INSERT INTO patients (picture,name, mob, date, doctor, department) VALUES
 ('Andrew Richardson', '(555) 123-4567', '2023-09-06 10:00:00', 'Dr. Jennifer Roberts', 'Pediatrics'),
 ('Benjamin Thompson', '(555) 987-6543', '2023-08-06 10:30:00', 'Dr. Michael Sullivan', 'Cardiology');
